@@ -121,8 +121,8 @@
 
         <!-- Segundo boton del menu de vista -->
         <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button"
-                role="tab" aria-controls="pills-profile" aria-selected="false">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
                 <i class="fas fa-square"></i>
             </button>
         </li>
@@ -133,40 +133,42 @@
 
 
     <!-- Publicaciones (imagenes) -->
-    <div class="tab-content bg-secondary pt-1 px-1" id="pills-tabContent">
+    <div class="tab-content" id="pills-tabContent">
 
         <!-- Imagenes con vista de cuadros -->
 
-        <div class="tab-pane fade show active d-inline-block" id="pills-home" role="tabpanel"
-            aria-labelledby="pills-home-tab">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
 
-            <div class="row-12 d-flex">
-                <img class="col-4 mb-1" src="https://picsum.photos/id/70/450/250" alt="Primera foto">
-                <img class="col-4 mx-1 mb-1" src="https://picsum.photos/id/30/450/250" alt="Segunda foto">
-                <img class="col-4 mb-1" src="https://picsum.photos/id/500/450/250" alt="Tercera foto">
+            <div class="content-fluid">
+                <div class="row gx-1 mb-1">
+                    <div class="col-lg-4 col-md-6"><img class="w-100" src="https://picsum.photos/id/70/400/200" alt="Primera foto"></div>
+                    <div class="col-lg-4 col-md-6"><img class="w-100" src="https://picsum.photos/id/30/400/200" alt="Segunda foto"></div>
+                    <div class="col-lg-4 col-md-6"><img class="w-100" src="https://picsum.photos/id/500/400/200" alt="Tercera foto"></div>
+                </div>
+
+                <div class="row gx-1 mb-1">
+                    <div class="col-lg-4 col-md-6"><img class="w-100" src="https://picsum.photos/id/125/400/200" alt="Cuarta foto"></div>
+                    <div class="col-lg-4 col-md-6"><img class="w-100" src="https://picsum.photos/id/40/400/200" alt="Quinta foto"></div>
+                    <div class="col-lg-4 col-md-6"><img class="w-100" src="https://picsum.photos/id/400/400/200" alt="Sexta foto"></div>
+                </div>
+
+                <div class="row gx-1 mb-1">
+                    <div class="col-lg-4 col-md-6"><img class="w-100" src="https://picsum.photos/id/569/400/200" alt="Septima foto"></div>
+                    <div class="col-lg-4 col-md-6"><img class="w-100" src="https://picsum.photos/id/800/400/200" alt="Octava foto"></div>
+                    <div class="col-lg-4 col-md-6"><img class="w-100" src="https://picsum.photos/id/600/400/200" alt="Novena foto"></div>
+                </div>
             </div>
 
-            <div class="row-12 d-flex">
-                <img class="col-4 mb-1" src="https://picsum.photos/id/125/450/250" alt="Cuarta foto">
-                <img class="col-4 mx-1 mb-1" src="https://picsum.photos/id/40/450/250" alt="Quinta foto">
-                <img class="col-4 mb-1" src="https://picsum.photos/id/400/450/250" alt="Sexta foto">
-            </div>
-
-            <div class="row-12 d-flex">
-                <img class="col-4" src="https://picsum.photos/id/569/450/250" alt="Septima foto">
-                <img class="col-4 mx-1" src="https://picsum.photos/id/800/450/250" alt="Octava foto">
-                <img class="col-4" src="https://picsum.photos/id/600/450/250" alt="Novena foto">
-            </div>
         </div>
 
         <!-- Imagenes con vista en lista, una a una -->
 
-        <div class="tab-pane fade d-flex justify-content-center bg-secondary" id="pills-profile" role="tabpanel"
-            aria-labelledby="pills-profile-tab">
-            <main>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+            <main class="pb-2 bg-secondary pt-2">
 
                 <!-- Primer post -->
-                <section class="justify-content-center p-2 my-4 rounded bg-light">
+                <section class="card-size justify-content-center p-2 my-4 rounded bg-light mx-auto">
 
                     <!-- Parte de arriba del post -->
                     <div class="d-flex px-2 mt-2">
@@ -179,7 +181,7 @@
 
                     <!-- Imagen -->
                     <img class="p-0" src="https://picsum.photos/id/1/600/350" alt="Primera foto">
-                    
+
                     <!-- Likes -->
                     <p>
                         <strong>23 Likes</strong>
@@ -192,13 +194,13 @@
 
                     <!-- Comentario -->
                     <div class="d-flex justify-content-center">
-                    
+
                         <i class="far fa-heart fs-5"></i>
 
                         <input class="form-control pt-0 mb-0 px-3 border-0" type="text" placeholder="Comment...">
 
                         <i class="fas fa-ellipsis-v fs-5"></i>
-                    
+
                     </div>
 
 
@@ -207,7 +209,7 @@
 
 
                 <!-- Segundo post -->
-                <section class="justify-content-center p-2 my-4 rounded bg-light">
+                <section class="card-size justify-content-center p-2 my-4 rounded bg-light mx-auto">
 
                     <!-- Parte de arriba del post -->
                     <div class="d-flex px-2 mt-2">
@@ -246,7 +248,7 @@
 
 
                 <!-- Tercer post -->
-                <section class="justify-content-center p-2 my-4 rounded bg-light">
+                <section class="card-size justify-content-center p-2 my-4 rounded bg-light mx-auto">
 
                     <!-- Parte de arriba del post -->
                     <div class="d-flex px-2 mt-2">
@@ -289,7 +291,7 @@
 
 
 
-    
+
 
 
 

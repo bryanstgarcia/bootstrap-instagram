@@ -14,3 +14,6 @@
 a:hover, a {
     color: black;
 }
+.card-size {
+    width: 615px;
+}
