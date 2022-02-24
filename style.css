@@ -1,0 +1,16 @@
+.marca {
+    font-family: 'Gideon Roman', cursive;
+}
+.nav-link, .nav-link.active {
+    color: gray;
+}
+.nav-link:focus, .nav-link:hover {
+    color: gray;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: white;
+    background-color: gray;
+}
+a:hover, a {
+    color: black;
+}
